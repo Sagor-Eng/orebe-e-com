@@ -18,7 +18,7 @@ const Bestsellers = () => {
                             productImg={bestselarpic1}
                             badgeName="New"
                             productName="Basic Crew Neck Tee"
-                            price="$44.00"
+                            ProductPrice="$80.00"
                             color="Black"
                         />
                     </div>
@@ -27,7 +27,7 @@ const Bestsellers = () => {
                             productImg={bestselarpic2}
                             badgeName="New"
                             productName="Basic Crew Neck Tee"
-                            price="$44.00"
+                            ProductPrice="$60.00"
                             color="Black"
                         />
                     </div>
@@ -36,7 +36,7 @@ const Bestsellers = () => {
                             productImg={bestselarpic3}
                             badgeName="New"
                             productName="Basic Crew Neck Tee"
-                            price="$44.00"
+                            ProductPrice="$70.00"
                             color="Black"
                         />
                     </div>
@@ -45,7 +45,7 @@ const Bestsellers = () => {
                             productImg={bestselarpic4}
                             badgeName="New"
                             productName="Basic Crew Neck Tee"
-                            price="$44.00"
+                            ProductPrice="$90.00"
                             color="Black"
                         />
                     </div>

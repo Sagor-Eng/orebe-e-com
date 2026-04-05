@@ -22,25 +22,41 @@ const NewArrivals = () => {
 
   };
   return (
-    <section className="py-20">
+
+    <section>
       <Container>
         <h2 className="text-[39px] font-bold mb-8">New Arrivals</h2>
         <Slider {...settings}>
-          <div className="px-2">
-            <Product productImg={watchProduct} badgeName="New" />
-          </div>
-          <div className="px-2">
-            <Product productImg={araival2} badgeName="-10%" />
-          </div>
-          <div className="px-2">
-            <Product productImg={araivalpic3} badgeName="Hot" />
-          </div>
-          <div className="px-2">
-            <Product productImg={catProduct} badgeName="Top" />
-          </div>
-          <div className="px-2">
-            <Product productImg={catProduct} badgeName="New" />
-          </div>
+          <Product
+            productImg={watchProduct}
+            badgeName="New"
+            productName="Smart Watch"
+            ProductPrice="$120.00"
+          />
+          <Product
+            productImg={araival2}
+            badgeName="-10%"
+            productName="Smart Watch"
+            ProductPrice="$100.00"
+          />
+          <Product
+            productImg={araivalpic3}
+            badgeName="Hot"
+            productName="Beautiful fita bag"
+            ProductPrice="$350.00"
+          />
+          <Product
+            productImg={catProduct}
+            badgeName="Top"
+            productName="Big Totoro (gray)"
+            ProductPrice="$250.00"
+          />
+          <Product
+            productImg={araivalpic3}
+            badgeName="Hot"
+            productName="Beautiful fita bag"
+            ProductPrice="$350.00"
+          />
         </Slider>
       </Container>
     </section>

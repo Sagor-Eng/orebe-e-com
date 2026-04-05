@@ -2,8 +2,6 @@ import React from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import NextArrow from "../common/NextArrow";
-import PrevArrow from "../common/PrevArrow";
 const Banner = () => {
   var settings = {
     dots: false,
@@ -11,8 +9,6 @@ const Banner = () => {
     speed: 500,
     slidesToShow: 1,
     slidesToScroll: 1,
-    nextArrow: <NextArrow />,
-    prevArrow: <PrevArrow />,
   };
   return (
     <div className="">
