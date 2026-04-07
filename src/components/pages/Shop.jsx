@@ -1,8 +1,9 @@
-import React from 'react'
-
+import Footers from '../layout/Footers'
 const Shop = () => {
   return (
-    <div>Shop</div>
+    <div>
+      <Footers />
+    </div>
   )
 }
 

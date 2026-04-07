@@ -1,8 +1,9 @@
-import React from 'react'
-
+import Footers from '../layout/Footers'
 const About = () => {
   return (
-    <div>About</div>
+    <div>
+      <Footers />
+    </div>
   )
 }
 

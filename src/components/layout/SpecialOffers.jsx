@@ -25,7 +25,7 @@ const SpecialOffers = () => {
         infinite: true,
         speed: 500,
         slidesToShow: 4,
-        slidesToScroll: 1,
+        slidesToScroll: 2,
         nextArrow: <NextArrow />,
         prevArrow: <PrevArrow />,
 
